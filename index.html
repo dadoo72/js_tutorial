@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Learn Enough Javascript</title>
+    <script type="text/javascript" src="day.js"></script>
   </head>
 
   <body>
@@ -13,7 +14,8 @@
     <p>This page includes an alert written in Javascript.</p>
 
     <script type="text/javascript">
-      alert("hello, world!");
+      let now = new Date();
+      alert(`hello, world! Happy ${dayName(now)}!`);
     </script>
   </body>
 
